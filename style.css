@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font and Color Scheme */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333333;
+    background-color: #EFEFEF;
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #005A9C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Links and Buttons */
+a, button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, button:hover {
+    background-color: #45a049;
+}
+
+/* Section Styling */
+section {
+    margin: 20px;
+    padding: 15px;
+}
+
+#mission, #about-hud, #projects, #contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
